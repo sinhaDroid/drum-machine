@@ -1,0 +1,13 @@
+#drum-machine {
+  border: 1px solid #888888;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  display: inline-grid;
+  grid-template-columns: repeat(3, minmax(50px, 150px));
+  grid-gap: 10px;
+
+  #display {
+    grid-area: 4/1/5/4;
+  }
+}

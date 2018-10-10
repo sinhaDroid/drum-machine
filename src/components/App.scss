@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+.App {
+  font-family: Audiowide, sans-serif;
+
+  header,
+  footer {
+    font-family: Audiowide, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: sans-serif;
+      font-size: 0.8rem;
+      margin: 0;
+
+      &:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  main {
+    text-align: center;
+  }
+}

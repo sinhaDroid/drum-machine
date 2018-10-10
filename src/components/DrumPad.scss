@@ -1,0 +1,25 @@
+.drum-pad {
+  position: relative;
+
+  &.playing {
+    img {
+      opacity: 1;
+    }
+  }
+
+  img {
+    max-width: 250px;
+    opacity: 0.5;
+    width: 100%;
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    font-size: 4rem;
+    left: 0;
+    right: 0;
+    bottom: 25%;
+    text-shadow: -1px -1px #ffffff, -1px 1px #ffffff, 1px -1px #ffffff, 1px 1px #ffffff;
+  }
+}

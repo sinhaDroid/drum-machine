@@ -5,6 +5,9 @@
   text-align: center;
   display: inline-grid;
   grid-template-columns: repeat(3, minmax(50px, 150px));
-  grid-gap: 10px; }
-  #drum-machine #display {
-    grid-area: 4/1/5/4; }
+  grid-gap: 10px;
+}
+
+#drum-machine #display {
+  grid-area: 4/1/5/4;
+}

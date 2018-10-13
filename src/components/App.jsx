@@ -14,7 +14,7 @@ class App extends Component {
         <DrumMachine />
         </main>
         <footer>
-          <p>Coded by <a href="https://www.freecodecamp.org/elrolfe" target="_blank" rel="noopener noreferrer">Eric Rolfe</a></p>
+          <p>Coded by <a href="https://deepanshusinha.me" target="_blank" rel="noopener noreferrer">Deepanshu Sinha</a></p>
           <p>
             Samples from the&nbsp;
             <a href="https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/" target="_blank" rel="noopener noreferrer">
